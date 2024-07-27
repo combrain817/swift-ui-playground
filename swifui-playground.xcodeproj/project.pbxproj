@@ -98,10 +98,9 @@
 		08A37F4E2C4C9369008BA3EA /* swifui-playground */ = {
 			isa = PBXGroup;
 			children = (
-				08C027892C4D4B2C006298E3 /* Image.swift */,
-				08C027872C4D46B0006298E3 /* Font.swift */,
+				08B3B4ED2C55BE2200AA2F69 /* component */,
+				08B3B4EC2C55BE1B00AA2F69 /* coupang */,
 				08A37F4F2C4C9369008BA3EA /* swifui_playgroundApp.swift */,
-				08A37F512C4C9369008BA3EA /* ContentView.swift */,
 				08A37F532C4C936F008BA3EA /* Assets.xcassets */,
 				08A37F552C4C936F008BA3EA /* Preview Content */,
 			);
@@ -131,6 +130,23 @@
 				08A37F6C2C4C9370008BA3EA /* swifui_playgroundUITestsLaunchTests.swift */,
 			);
 			path = "swifui-playgroundUITests";
+			sourceTree = "<group>";
+		};
+		08B3B4EC2C55BE1B00AA2F69 /* coupang */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = coupang;
+			sourceTree = "<group>";
+		};
+		08B3B4ED2C55BE2200AA2F69 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				08C027892C4D4B2C006298E3 /* Image.swift */,
+				08C027872C4D46B0006298E3 /* Font.swift */,
+				08A37F512C4C9369008BA3EA /* ContentView.swift */,
+			);
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
