@@ -22,7 +22,6 @@ struct LoginView: View {
             HStack {
                 Text("이메일")
                     .frame(width: 100, alignment: .leading)
-                    .background(Color.red)
                 TextField(text: $username,
                           prompt: Text("email@example.com")
                     .foregroundStyle(.gray)) {
@@ -35,7 +34,6 @@ struct LoginView: View {
             HStack {
                 Text("비밀번호")
                     .frame(width: 100, alignment: .leading)
-                    .background(Color.red)
                 SecureField(text: $password) {
                     Text("Password")
                 }
@@ -49,6 +47,7 @@ struct LoginView: View {
                         .frame(width: 300, height: 50)
                         .background(Color(red:0, green: 140, blue: 255))
                         .foregroundStyle(Color.white)
+                        .fontWeight(.bold)
                 })
                 .foregroundStyle(Color.white)
             }
@@ -60,7 +59,8 @@ struct LoginView: View {
             Button {} label: {
                 Text("회원가입")
                     .frame(width: 300, height: 40)
-                    .background(Color(.red))
+                    .background(Color.white)
+                    .border(Color.gray)
             }
 
         }
